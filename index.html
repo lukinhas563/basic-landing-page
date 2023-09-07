@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <input type="checkbox" aria-label="Close menu" role="button" id="close-menu" class="close-menu">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+
+    <header class="menu">
+        <div class="menu-config" onclick="getElementById('close-menu').checked = false;">
+            <p><a href="#home" onclick="getElementById('close-menu').checked = false;">MyLogo</a></p>
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="botao">LogIn</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="principal" id="home">
+        <div class="principal-config">
+            <div class="principal-conteudo">
+                <h2>Optimisation</h2>
+                <h1>Boosts Your Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque pariatur perspiciatis ea distinctio,
+                    sequi obcaecati exercitationem quos mollitia totam deleniti quisquam, ipsam molestias reiciendis
+                    explicabo assumenda maiores vel aspernatur est.</p>
+                <div class="botao-dois">
+                    <button>CONTACT-US</button>
+                    <div><button><img src="/img/play-icon.svg" alt="Botão de play" class="botao-play"></button>Play
+                        Video 3:14
+                    </div>
+                </div>
+            </div>
+            <img src="/img/website-icon.svg" alt="grupo de programação" class="imagem">
+
+        </div>
+    </main>
+
+    <section class="secao" id="about">
+        <div class="secao-conteudo">
+            <img src="/img/website-icon-dois.svg" alt="SVG de um website" class="imagem-dois">
+        </div>
+        <div class="secao-conteudo-dois">
+            <h3>ABOUT</h3>
+            <h2>Search Engine Marketing</h2>
+            <p class="conteudo-um">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, esse aut velit
+                libero deleniti natus
+                perferendis eos laborum ex beatae laudantium dolorum tenetur harum tempore. Delectus ut omnis
+                adipisci
+                dicta?</p>
+            <p class="conteudo-dois">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, esse aut velit
+                libero deleniti natus
+                perferendis eos laborum ex beatae laudantium dolorum tenetur harum tempore. Delectus ut omnis
+                adipisci
+                dicta?</p>
+        </div>
+    </section>
+
+    <section class="secao-dois" id="works">
+        <div class="secao-dois-config">
+            <div class="secao-dois-cabecalho">
+                <h2>My Grid</h2>
+                <p>Uma breve descrição</p>
+            </div>
+            <div class="secao-dois-grid">
+                <article>
+                    <h3>Teste 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic distinctio aliquid molestiae
+                        quas
+                        iure, voluptatibus consequuntur ut atque. Deleniti voluptas assumenda repudiandae sit at
+                        mollitia
+                        vero adipisci placeat fuga!</p>
+                </article>
+                <article>
+                    <h3>Teste 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic distinctio aliquid molestiae
+                        quas
+                        iure, voluptatibus consequuntur ut atque. Deleniti voluptas assumenda repudiandae sit at
+                        mollitia
+                        vero adipisci placeat fuga!</p>
+                </article>
+                <article>
+                    <h3>Teste 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic distinctio aliquid molestiae
+                        quas
+                        iure, voluptatibus consequuntur ut atque. Deleniti voluptas assumenda repudiandae sit at
+                        mollitia
+                        vero adipisci placeat fuga!</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="galeria" id="gallery">
+        <div class="galeria-config">
+            <div class="galeria-cabecalho">
+                <h2>My Gallery</h2>
+                <p>Uma breve descrição</p>
+            </div>
+            <div class="galeria-grid">
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=7" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=8" alt="Imagem aleatoria" class="img">
+                </div>
+                <div class="grid">
+                    <img src="https://source.unsplash.com/random/360x360?r=9" alt="Imagem aleatoria" class="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="pricing-config">
+            <div class="pricing-cabecalho">
+                <h3>PRICING</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt ipsa in necessitatibus. Saepe
+                    sequi est similique, dolores dolorem dolorum nesciunt nihil ducimus quia? Recusandae autem neque
+                    saepe eos quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt ipsa in
+                    necessitatibus. Saepe
+                    sequi est similique, dolores dolorem dolorum nesciunt nihil ducimus quia? Recusandae autem neque
+                    saepe eos quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nesciunt ipsa in
+                    necessitatibus. Saepe
+                    sequi est similique, dolores dolorem dolorum nesciunt nihil ducimus quia? Recusandae autem neque
+                    saepe eos quidem?</p>
+
+            </div>
+            <div class="pricing-tabela">
+                <table class="tabela">
+                    <caption>Pricing table</caption>
+
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>Testando</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="contact">
+        <div class="contato">
+            <form class="formulario">
+                <h2>Contact</h2>
+                <p>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+                </p>
+                <p>
+                    <label for="email">Seu e-mail:</label><br>
+                    <input type="email" id="email" name="email" placeholder="email@email.com" />
+                </p>
+                <p>
+                    <label for="assunto">Titulo:</label><br>
+                    <input type="text" id="assunto" name="assunto" placeholder="Titulo do assunto" required />
+                </p>
+                <p>
+                    <label for="textarea">Assunto:</label><br>
+                    <textarea name="textarea" id="textarea" rows="8" cols="80"></textarea>
+                </p>
+                <p class="botao-enviar">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Reset</button>
+                </p>
+            </form>
+        </div>
+        <div class="agradecimento">
+            <p>Feito com <span class="heart">♥</span> por Lucas Montenegro</p>
+        </div>
+    </footer>
+
+    <a class="back-to-top" href="#home">➤</a>
+</body>
+
+</html>
